@@ -1,0 +1,41 @@
+.thanks-container {
+    background-color: hsl(213, 19%, 18%);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 60px;
+    margin: 0 5%;
+}
+
+.icon-thanks {
+    min-width: 200px;
+    min-height: auto;
+}
+
+#print-avaliation {
+    text-align: center;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(25, 97%, 53%);
+    width: 55%;
+    padding: 12px 0;
+    border-radius: 22px;
+    margin: 40px 0;
+}
+
+.thanks-container h1 {
+    font-size: 32px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.thanks-container p {
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 0 40px;
+}

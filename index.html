@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/thanks-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafio 01</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="icon-container">
+            <img src="img/icon-star.svg" class="icon">
+        </div>
+
+        <div class="text">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        </div>
+
+        <div class="btn-container">
+            <button class="rating-button" data-value="1">1</button>
+            <button class="rating-button" data-value="2">2</button>
+            <button class="rating-button" data-value="3">3</button>
+            <button class="rating-button" data-value="4">4</button>
+            <button class="rating-button" data-value="5">5</button>
+
+        </div>
+
+        <button class="btn-submit" onclick="submit()">SUBMIT</button>
+    </div>
+
+    <div class="thanks-container">
+        <img src="img/illustration-thank-you.svg" class="icon-thanks">
+
+        <div id="print-avaliation">
+            <h3>You selected 0 out of 5</h3>
+        </div>
+
+        <div class="thanks-text">
+            <h1>Thank you!</h1>
+            <p>We appreciate you taking the time to give a rating. if you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
